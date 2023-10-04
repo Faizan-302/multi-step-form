@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
           info[1] = "$15/mo";
           plan[index].style.backgroundColor = " hsl(217, 100%, 97%)";
           plan[index - 1].style.backgroundColor = "white";
-          plan[index + 1].style.backgroundColor = "white";
+          plan[index - 2].style.backgroundColor = "white";
         }
       }
       else {
@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
           info[1] = "$150/yr";
           plan[index].style.backgroundColor = " hsl(217, 100%, 97%)";
           plan[index - 1].style.backgroundColor = "white";
+            plan[index - 2].style.backgroundColor = "white";
 
         }
       }
